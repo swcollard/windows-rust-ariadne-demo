@@ -1,0 +1,8 @@
+type Query {
+	Hello: String
+	world: WorldType!
+}
+
+type WorldType {
+	continents: Int!
+}
